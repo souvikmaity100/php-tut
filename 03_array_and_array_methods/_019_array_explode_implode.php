@@ -15,8 +15,9 @@ echo "<br>";
 $newarr = array('hello', 'how', 'are', 'you');
 
 // $str = implode(' ', $newarr);
-$str = implode(' ', $newarr);
+// $str = implode('<br/>', $newarr);
+$nstr = join('=>', $newarr);
 
-print_r($str);
+print_r($nstr);
 
 ?>
