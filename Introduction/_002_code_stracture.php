@@ -17,25 +17,24 @@
 <!-- PHP Echo Statement : -->
 <!-- Print Message or Variable value -->
 <?php
-    echo "Yahoo Baba";
-    echo 'Yahoo Baba';
-    echo "Yahoo", "Baba";
-    echo "Yahoo". "Baba";
+    echo "Hello World";
+    echo "Hello", "World";
+    echo "Hello". "World";
 ?>
 
 
 <!-- PHP Print Statement : -->
 <!-- Print Message or Variable value -->
 <?php
-    print "Yahoo Baba";
-    print "Yahoo". "Baba";
-    print "<b>Yahoo Baba</b>";
+    print "Hello World";
+    print "Hello". "World";
+    print "<b>Hello World</b>";
     print 502.25;
 ?>
 
 <!-- Difference between Echo & Print : -->
 <!-- Echo is faster than print -->
 <?php
-    echo "Yahoo", "Baba";
-    print "Yahoo","Baba"; #not work
+    echo "Hello", "World";
+    // print "Hello","World"; #not work
 ?>
